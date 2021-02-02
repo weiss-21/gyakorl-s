@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <input type="text" id="fiz" name="fiz" disabled><br>
+    <input type="button" value="ird ki a mező tartalmát" onclick="kiir()">
+    <p id="adat">nev:</p>
+    <script>
+        document.getElementById("fiz").value=1000*2;
+        function kiir(){
+            
+        document.getElementById("adat").innerHTML=(document.getElementById("fiz").value);
+        }
+
+    </script>
+</body>
+</html>
